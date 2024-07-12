@@ -2,8 +2,8 @@ FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 FREEZING_POINT_DIFFERENCE = 32
 
-def convert_to_celcius(fahrenheit):
-    celsius = (fahrenheit - 32) * AHRENHEIT_TO_CELSIUS_FACTOR
+def convert_to_celsius(fahrenheit):
+    celsius = (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
     return celsius
 
 def convert_to_fahrenheit(celsius):
@@ -19,7 +19,7 @@ def main():
             convert_temp = convert_to_fahrenheit(temp)
             print(f"{temp}°C is {converted_temp}°F")
         elif unit == 'F':
-            converted_temp = converted_to_celsius(temp)
+            converted_temp = convert_to_celsius(temp)
             print(f"{temp}°F is {converted_temp}°C")
         else:
             print("Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
