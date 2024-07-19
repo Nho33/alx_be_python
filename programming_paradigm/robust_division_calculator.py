@@ -1,8 +1,8 @@
 def safe_divide(numerator, denominator):
     try:
     
-        self.numerator = float( numerator)
-        self.denominator = float( denominator)
+        num = float( numerator)
+        denom = float( denominator)
         result = numerator / denominator
         return f"Result: {result}"
 
