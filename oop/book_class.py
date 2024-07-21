@@ -13,14 +13,14 @@ class Book:
     def __del__(self):
         print(f"Deleting {self.title}.")
 
-b = Book("My sweet Audrina", "VC Andrews", 1982)
+b = Book("1984", "George Orwell", 1949)
 
 # Import the Book class from book.py
 from book import Book
 
 def main():
     # Create an instance of the Book class
-    my_book = Book("My Sweet Audrina", "VC Andrews", 300)
+    my_book = Book("1984", "George Orwell", 1949)
 
     # Test the __str__ method
     print("Testing __str__ method:")
