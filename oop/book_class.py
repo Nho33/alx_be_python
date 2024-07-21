@@ -14,6 +14,7 @@ class Book:
         print(f"Deleting {self.title}")
 
 b = Book("1984", "George Orwell", 1949)
+del b
 
 # Import the Book class from book.py
 #from book import Book
