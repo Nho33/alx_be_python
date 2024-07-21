@@ -16,22 +16,4 @@ class Book:
 b = Book("1984", "George Orwell", 1949)
 del b
 
-# Import the Book class from book.py
-#from book import Book
-
-#def main():
-    # Create an instance of the Book class
- #   my_book = Book("1984", "George Orwell", 1949)
-
-    # Test the __str__ method
-  #  print("Testing __str__ method:")
-   # print(my_book)
-
-    # Test the __repr__ method
-    #print("\nTesting __repr__ method:")
-   # print(repr(my_book))
-
-#if __name__ == "__main__":
- #   main()
-
 
